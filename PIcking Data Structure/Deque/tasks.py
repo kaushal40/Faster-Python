@@ -44,4 +44,5 @@ def test_queue(count=100, cls=TaskQueue):
 
 if __name__ == '__main__':
     test_queue()
+    #running with DTASK Queue instead
     test_queue(cls=DTaskQueue)
