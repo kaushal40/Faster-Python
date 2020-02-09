@@ -15,5 +15,15 @@
 
 - *Example Use* You want to insert the item in sorted list. If you just add it normly, it sorts the items after insertion so sorting + adding the item which is expensive
  
-https://docs.python.org/3.0/library/bisect.html
+- https://docs.python.org/3.0/library/bisect.html
+
+
+
+**Use deque**
+
+- Use whenever you wanted to perform First in First out,  for example messages. 
+- If you use list for queue, it will relocate the list in the memory again whenever the new element is added
+_ so use deque which is double ended queue, downside of this is it might take some time to access the elements
+
+
 
