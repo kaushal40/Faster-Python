@@ -12,3 +12,6 @@
 
 **Threads**
 
+- Python data structure are not thread safe
+- Newer versions include concurrent.futures
+
